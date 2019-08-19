@@ -1,0 +1,42 @@
+{
+  "name": "yoshikids/laravel-model",
+  "description": "Yoshikids Components for Laravel Framework code generation.",
+  "keywords": ["reliese", "laravel", "model"],
+  "homepage": "https://github.com/yoshikids/laravel-model",
+  "support": {
+    "issues": "https://github.com/yoshikids/laravel-model/issues",
+    "source": "https://github.com/yoshikids/laravel-model"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Yoshiki Shiromae",
+      "email": "degiyoshi@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.6.4",
+    "reliese/laravel": "^0.0.13"
+  },
+  "require-dev": {
+  },
+  "autoload": {
+    "psr-4": {
+      "Yoshikids\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "classmap": [
+    ]
+  },
+  "config": {
+    "preferred-install": "dist"
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Yoshikids\\Laravel\\Providers\\YoshikidsServiceProvider"
+      ]
+    }
+  }
+}
